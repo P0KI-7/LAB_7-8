@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(ProcessManager
     src/main.cpp
-    src/PCB.cpp
     src/ListNode.cpp
     src/ProcessList.cpp
 )
