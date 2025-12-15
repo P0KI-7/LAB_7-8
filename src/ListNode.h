@@ -23,7 +23,7 @@ public:
 
     PCB  getData() const;
     PCB& setData();
-    ListNode  getNext() const;
-    ListNode& setNext();
+    ListNode*  getNext() const;
+    ListNode*& setNext();
 };
 #endif // ListNode_h

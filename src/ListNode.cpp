@@ -27,5 +27,5 @@ std::vector<int>& ListNode::setCpuRegisters()       {return data.cpuRegisters;};
 
 PCB  ListNode::getData() const {return data;};
 PCB& ListNode::setData()       {return data;};    
-ListNode  ListNode::getNext() const {return* next;};
-ListNode& ListNode::setNext()       {return* next;};
+ListNode*  ListNode::getNext() const {return next;};
+ListNode*& ListNode::setNext()       {return next;};
