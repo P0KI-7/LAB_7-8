@@ -18,7 +18,7 @@ public:
     std::string& setProcessStatus();
     int  getCommandCounter() const;
     int& setCommandCounter();
-    std::vector<int>  setCpuRegisters() const;
+    std::vector<int>  getCpuRegisters() const;
     std::vector<int>& setCpuRegisters();
 
     PCB  getData() const;
